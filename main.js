@@ -2,7 +2,7 @@
 
 let number = [1, 2, 2, 3, 4, 4, 5];
 
-let array1 = number;
+let array1 = number.slice();
 
 let array2 = [];
 
