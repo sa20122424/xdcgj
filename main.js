@@ -7,7 +7,7 @@ let array1 = number;
 let array2 = [];
 
 for (let i = 0; i < number.length; i++) {
-    if (array2.indexOf(number[i]) ===6 -1) {
+    if (array2.indexOf(number[i]) === -1) {
         array2.push(number[i]);
     }
 }
